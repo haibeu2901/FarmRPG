@@ -8,6 +8,6 @@ namespace FarmRPG.Data
 {
     public static class Items
     {
-
+        public static string[] AnimalTypes = { "Chicken", "Cow" };
     }
 }
