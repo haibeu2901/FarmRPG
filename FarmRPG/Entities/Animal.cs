@@ -8,8 +8,8 @@ namespace FarmRPG.Entities
 {
     public class Animal
     {
-        public String Name { get; private set; }
-        public String Type { get; private set; }
+        public string Name { get; private set; }
+        public string Type { get; private set; }
         public int Hunger { get; private set; }
 
         public Animal(string name, string type)
