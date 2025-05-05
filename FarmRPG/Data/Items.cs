@@ -9,6 +9,6 @@ namespace FarmRPG.Data
     public static class Items
     {
         public static string[] AnimalTypes = { "Chicken", "Cow" };
-        public static string[] CropTypes = { "Wheat", "Corn", "Potatoes" }
+        public static string[] CropTypes = { "Wheat", "Corn", "Potatoes" };
     }
 }
