@@ -7,7 +7,7 @@ namespace FarmRPG
         static void Main(string[] args)
         {
             Console.Write("Enter your farmer name: ");
-            string farmerName = Console.ReadLine(); 
+            string farmerName = Console.ReadLine() ?? "Henrico Devoti"; 
             Game game = new Game(farmerName);
             game.Run();
         }
